@@ -1,0 +1,10 @@
+postgresql:
+    persistence:
+      resourcePolicy: nil
+      size: 20Gi
+      #existingClaim: data-anchore-engine-postgresql-0
+
+anchoreGlobal:
+    # Image used for all anchore engine deployments (excluding enterprise components).
+    image: docker.io/anchore/anchore-engine:v0.6.1
+    imagePullPolicy: IfNotPresent

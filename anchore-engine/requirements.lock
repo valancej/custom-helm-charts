@@ -1,0 +1,12 @@
+dependencies:
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 8.0.0
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 8.0.0
+- name: redis
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 6.4.5
+digest: sha256:5551fcf68b7b40e1739d1a9a46ee7d8b597e4ae653853c97ff5cdc60a3a0e377
+generated: "2020-03-21T00:54:56.663324-06:00"
