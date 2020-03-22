@@ -8,3 +8,6 @@ anchoreGlobal:
     # Image used for all anchore engine deployments (excluding enterprise components).
     image: docker.io/anchore/anchore-engine:v0.6.1
     imagePullPolicy: IfNotPresent
+
+anchoreEnterpriseGlobal:
+  enabled: true
