@@ -1,3 +1,4 @@
 .DS_Store
 anchore-engine-1.4.4.tgz
-license.yaml.deploy
+license.yaml
+.deploy
