@@ -1,4 +1,6 @@
 postgresql:
+    # Configure size of the persitant volume used with helm managed chart.
+    # This should be commented out if using an external endpoint.
     persistence:
       resourcePolicy: nil
       size: 20Gi
@@ -11,3 +13,11 @@ anchoreGlobal:
 
 anchoreEnterpriseGlobal:
   enabled: true
+
+anchore-feeds-db:
+  # Configure size of the persitant volume used with helm managed chart.
+  # This should be commented out if using an external endpoint.
+  persistence:
+    resourcePolicy: nil
+    size: 20Gi
+    #existingClaim: example-feeds-db-claim
